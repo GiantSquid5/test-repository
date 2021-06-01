@@ -1,0 +1,22 @@
+{
+  "name": "test-repository",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GiantSquid5/test-repository.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GiantSquid5/test-repository/issues"
+  },
+  "homepage": "https://github.com/GiantSquid5/test-repository#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
