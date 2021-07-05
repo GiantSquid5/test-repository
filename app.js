@@ -10,6 +10,9 @@ app.get('/', (req, res) => res.send('Hello World From Sourcetree!!'))
 
 //you can also send saveed files from sourcetree by saving it in your preferred editor from the git repo
 //and of course saving and pushing
+
+//so right now the action path is push from ST to Github then 
+//(You must be logged into the server)Pull to the server from GitHub
 app.listen(3000, () => console.log('App listening for connections'))
 
 console.log("Does this work?");
