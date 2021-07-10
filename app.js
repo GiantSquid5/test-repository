@@ -4,7 +4,7 @@ const app = express()
 app.set('views', 'views')
 app.set('view engine', 'ejs')
 
-app.get('/', (req, res) => res.render('home'))
+app.get('/', (req, res) => res.render('test'))
 // go into folder on the server(test-repository) and do git pull
 //edits inside of the git repository on the server whould be collected using git pull
 
