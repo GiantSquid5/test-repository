@@ -6,7 +6,7 @@ app.set('view engine', 'ejs')
 
 app.get('/', (req, res) => res.render('test'))
 //app.get('/style', (req, res) => res.render('style.css'))
-app.get('/style', (req, res) => res.render('./views/style.css'))
+app.get('/style', (req, res) => res.sendFile('./views/style.css'))
 
 // go into folder on the server(test-repository) and do git pull
 //edits inside of the git repository on the server whould be collected using git pull
